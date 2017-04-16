@@ -1,2 +1,15 @@
-<h1>Log In</h1>
-<button pButton type="button" label="Click"></button>
+<div class="fill-page bg-login">
+    <div id="logo_container" class="card h-centered">
+        <img id="logo" src="assets/img/digital_pulz_logo.png" alt="logo">
+    </div>
+    <div id="login" class="card h-centered">
+        <div id="banner" class="bg-dark">
+            Out Patient Department
+        </div>
+        <input type="text" placeholder="Username" pInputText>
+        <input type="password" placeholder="Password" pInputText>
+        <p-checkbox id="forgetmenot" [(ngModel)]="value" binary="true" label="Stay signed in"></p-checkbox>
+        <button pButton type="button" label="Sign In"></button>
+        <a href="#" id="need-help">Lost your password?</a>
+    </div>
+</div>
