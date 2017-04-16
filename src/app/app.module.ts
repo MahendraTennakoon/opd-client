@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { ButtonModule, PanelModule, InputTextModule } from 'primeng/primeng';
+import { ButtonModule, PanelModule, InputTextModule, CheckboxModule } from 'primeng/primeng';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -24,7 +24,8 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserAnimationsModule,
     ButtonModule,
     PanelModule,
-    InputTextModule
+    InputTextModule,
+    CheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]
